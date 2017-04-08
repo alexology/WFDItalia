@@ -1,15 +1,15 @@
 #' aspt
 #'
-#' Questa funzione permette il calcolo dell'Average Score Per Taxon (ASPT).
-#' @param x data.frame as specified in details.
+#' This function calculates the Average Score Per Taxon (ASPT).
+#' @param x a data.prep object.
 #' @keywords ASPT
-#' @details Il calcolo viene effettuato utilizzando i punteggi definiti da Davy-Bowker et al. 2008. ? possibile visionare i punteggi digitando aspt_v e premendo invio.
+#' @details Calculation made according to Davy-Bowker et al. 2008. Scores can be viewed by typing aspt_v and pressing enter.
 #' @references Davy-Bowker J., Clarke R., Corbin T., Vincent H, Pretty J., Hawczak A., Blackburn J., Murphy J., Jones I., 2008. River Invertebrate Classification Tool. Final report. WFD72C. SNIFFER. 276 pp
 #' @export
 #' @examples
-#' data(esempio_su)
-#' surber <- data.prep(esempio_su)
-#' aspt(surber)
+#' data(oglio)
+#' oglio.prep <- data.prep(oglio)
+#' aspt(oglio.prep)
 
 aspt <- function(x){
 		b <- as.data.frame(matrix(0, nrow=nrow(x[[1]]),ncol=nrow(aspt_acc)))

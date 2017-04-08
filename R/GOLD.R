@@ -1,7 +1,7 @@
 #' 1-GOLD
 #'
-#' Calculate 1-GOLD.
-#' @param x un oggetto di classe ISA O STAR.
+#' This function calculates the metric 1-GOLD.
+#' @param x a data.prep object.
 #' @keywords preparazione dei dati
 #' @export
 #' @examples
