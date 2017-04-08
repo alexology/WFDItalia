@@ -5,7 +5,7 @@ A collection of functions for calculating the italian STAR_ICMi index based on m
 
 # Installation
 
-```
+```R
 # install the devtools package and then
 library(devtools)
 
