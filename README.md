@@ -5,5 +5,10 @@ A collection of functions for calculating the italian STAR_ICMi index based on m
 
 # Installation
 
-devtools::install_github("alexology/WFDItalia")
+```
+# install the devtools package and then
+library(devtools)
 
+install_github("alexology/WFDItalia")
+```
+# Usage
