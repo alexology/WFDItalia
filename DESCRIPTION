@@ -2,7 +2,7 @@ Package: WFDItalia
 Type: Package
 Title: STAR_ICMi for R
 Version: 0.1.0
-Author: Alex Laini
+Author: Alex Laini, Simone Guareschi, Gemma Burgazzi, Tommaso Cancellario
 Maintainer: Alex Laini <alex.laini@gmail.com>
 Description: A collection of functions for calculating the italian STAR_ICMi index based on macroinvertebrate commnity.
 Depends:
