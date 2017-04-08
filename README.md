@@ -14,6 +14,8 @@ install_github("alexology/WFDItalia")
 # Usage
 
 ```R
+library(WFDItalia)
+
 # Prepare data for the analysis. You will asked to choose between surber and artificial substrate methods. For the dataset oglio we will choose surber
 oglio.prep <- data.prep(oglio)
 
