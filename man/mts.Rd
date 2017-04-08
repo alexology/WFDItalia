@@ -13,13 +13,12 @@ mts(x)
 Questa funzione permette il calcolo del Mayfly Total Score (Buffagni et al. 1997).
 }
 \details{
-Se Siphlonurus risulta essere l'unico efemerottero nella comunità allora il suo punteggio passa da 3 a 1.
+Se Siphlonurus risulta essere l'unico efemerottero nella comunitÃƒÂ  allora il suo punteggio passa da 3 a 1.
 }
 \examples{
 macropen()
 }
 \references{
-Buffagni A., 1997 – Mayfly community composition and the biological quality of streams. In Landolt P. & Sartori M. (eds), Ephemeroptera & Plecoptera: Biology-Ecology-Systematics. MTL, Fribourg: 235-246
+Buffagni A., 1997 Mayfly community composition and the biological quality of streams. In Landolt P. & Sartori M. (eds), Ephemeroptera & Plecoptera: Biology-Ecology-Systematics. MTL, Fribourg: 235-246
 }
 \keyword{MTS}
-

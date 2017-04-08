@@ -11,3 +11,4 @@ Depends:
 License: GPL-2
 Encoding: latin1
 LazyData: true
+RoxygenNote: 6.0.1

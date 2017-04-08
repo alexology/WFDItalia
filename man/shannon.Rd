@@ -17,4 +17,3 @@ shannon()
 }
 \keyword{data}
 \keyword{preparation}
-

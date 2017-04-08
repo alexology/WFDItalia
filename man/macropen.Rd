@@ -7,7 +7,7 @@
 macropen(x, rif = NULL, writexlsx = F, MTS = 1)
 }
 \arguments{
-\item{rif}{questa voce permette di inserire i valori di riferimento. Qualora non venissero forniti valori di riferimento il sistema propone un menù di scelta.}
+\item{rif}{questa voce permette di inserire i valori di riferimento. Qualora non venissero forniti valori di riferimento il sistema propone un menÃƒÂ¹ di scelta.}
 
 \item{writexlsx}{se T salva nella cartella di destinazione i risultati della funzione}
 
@@ -19,11 +19,10 @@ macropen(x, rif = NULL, writexlsx = F, MTS = 1)
 Questa funzione consente il calcolo dell'indice STAR_ICMi nel caso di campionamento con rete surber o dell'indice ISA nel caso di cammpionamento con substrati artificiali.
 }
 \details{
-I valori del comando MTS sono relativi alla correzione da applicare alla metrica ASPT qualora si utilizzino i substrati artificiali. MTS =1 fornisce i valori proposti in Buffagni et al. (2014) pari a -0.1067*n° famiglie+7.3533. MTS = 2 implementa invece i valori presenti nel software MacrOper versione 0.0.1 pari a -0.10667*n° famiglie+0.9909
+I valori del comando MTS sono relativi alla correzione da applicare alla metrica ASPT qualora si utilizzino i substrati artificiali. MTS =1 fornisce i valori proposti in Buffagni et al. (2014) pari a -0.1067*nÃ‚Â° famiglie+7.3533. MTS = 2 implementa invece i valori presenti nel software MacrOper versione 0.0.1 pari a -0.10667*n? famiglie+0.9909
 }
 \examples{
 macropen()
 }
 \keyword{ISA}
 \keyword{STAR_ICMi,}
-

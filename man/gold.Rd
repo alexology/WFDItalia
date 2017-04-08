@@ -7,15 +7,16 @@
 gold(x)
 }
 \arguments{
-\item{x}{un oggetto di classe ISA O STAR.}
+\item{x}{a data.prep object.}
 }
 \description{
-Calculate 1-GOLD.
+This function calculates the metric 1-GOLD.
 }
 \examples{
-1-GOLD()
+data(oglio)
+oglio.prep <- data.prep(oglio)
+gold(oglio.prep)
 }
 \keyword{dati}
 \keyword{dei}
 \keyword{preparazione}
-

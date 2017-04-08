@@ -38,4 +38,3 @@ data <- LIMeco(ex,2,3,4,5,6)
 tapply(data$LIMeco, list(ex$STA, ex$year), mean)
 }
 \keyword{limECO}
-

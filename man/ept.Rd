@@ -7,15 +7,14 @@
 ept(x)
 }
 \arguments{
-\item{x}{data.frame as specified in details.}
+\item{x}{a data.prep object.}
 }
 \description{
-Questa funzione permette il calcolo dell'EPT (n� di famiglie di Efemerotteri, Plecotteri e Tricotteri)
+This function calculates the EPT metric (number of Plecoptera, EÃ¨hemeroptera and Trichoptera families)
 }
 \examples{
-data(esempio_su)
-surber <- data.prep(esempio.su)
-ept(surber)
+data(oglio)
+oglio.prep <- data.prep(oglio)
+ept(oglio)
 }
 \keyword{EPT}
-
