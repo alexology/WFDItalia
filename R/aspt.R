@@ -6,6 +6,7 @@
 #' @details Calculation made according to Davy-Bowker et al. 2008. Scores can be viewed by typing aspt_v and pressing enter.
 #' @references Davy-Bowker J., Clarke R., Corbin T., Vincent H, Pretty J., Hawczak A., Blackburn J., Murphy J., Jones I., 2008. River Invertebrate Classification Tool. Final report. WFD72C. SNIFFER. 276 pp
 #' @export
+#' @seealso \code{\link{data.prep}}
 #' @examples
 #' data(oglio)
 #' oglio.prep <- data.prep(oglio)

@@ -5,10 +5,15 @@
 #' @keywords preparazione dei dati
 #' @export
 #' @examples
-#' 1-GOLD()
+#' data(oglio)
+#' oglio.prep <- data.prep(oglio)
+#' gold(oglio.prep)
 
 gold <- function(x){
+    # select families beloging to Gastropoda, Oligochaeta and Diptera from user's dataframe
 		gold_row <- row.names(subset(x[[2]], gruppo=="Gastropoda"|gruppo=="Oligochaeta"|gruppo=="Diptera"))
+
+		# subsetting user's dataframe with the families selected before
 		x_g <- x[[1]][,gold_row,drop=FALSE]
             if(nrow(x[[1]])==1){
             abu_tot <- sum(x[[1]])

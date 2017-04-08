@@ -1,13 +1,13 @@
 #' ept
 #'
-#' Questa funzione permette il calcolo dell'EPT (n° di famiglie di Efemerotteri, Plecotteri e Tricotteri)
-#' @param x data.frame as specified in details.
+#' This function calculates the EPT metric (number of Plecoptera, Eèhemeroptera and Trichoptera families)
+#' @param x a data.prep object.
 #' @keywords EPT
 #' @export
 #' @examples
-#' data(esempio_su)
-#' surber <- data.prep(esempio.su)
-#' ept(surber)
+#' data(oglio)
+#' oglio.prep <- data.prep(oglio)
+#' ept(oglio)
 
 
 ept <- function (x){
