@@ -1,6 +1,6 @@
 #' LIMeco
 #'
-#' Calculate LIMeco.
+#' This function calculates LIMeco.
 #' @param X data.frame as specified in details.
 #' @param STA column number of site names.
 #' @param O2 column number of oxygen data.
