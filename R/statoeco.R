@@ -18,9 +18,9 @@ if(length(which(x[,7]>=rif1[,9]&x[,7]<rif1[,8]))>0){
 x[which(x[,7]>=rif1[,9]&x[,7]<rif1[,8]),8] <- "BUONO"
 x[which(x[,7]>=rif1[,9]&x[,7]<rif1[,8]),9] <- 2}
 
-if(length(which(x[,7]>rif1[,8]))>0){
-x[which(x[,7]>rif1[,8]),8] <- "ELEVATO"
-x[which(x[,7]>rif1[,8]),9] <- 1}
+if(length(which(x[,7]>=rif1[,8]))>0){
+x[which(x[,7]>=rif1[,8]),8] <- "ELEVATO"
+x[which(x[,7]>=rif1[,8]),9] <- 1}
 return(x)
 }
 

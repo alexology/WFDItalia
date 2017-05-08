@@ -1,8 +1,8 @@
 #' macropen
 #'
-#' Questa funzione consente il calcolo dell'indice STAR_ICMi nel caso di campionamento con rete surber o dell'indice ISA nel caso di cammpionamento con substrati artificiali.
-#' @param data.frame data.frame ottenuto dalla funzione data.prep
-#' @param rif questa voce permette di inserire i valori di riferimento. Qualora non venissero forniti valori di riferimento il sistema propone un menù di scelta.
+#' This function calculates STAR_ICMi index (surber) or ISA index (artificial substrates). Questa funzione consente il calcolo dell'indice STAR_ICMi nel caso di campionamento con rete surber o dell'indice ISA nel caso di cammpionamento con substrati artificiali.
+#' @param data.frame a data.prep object.
+#' @param rif reference values provided by the user. If a drop down menu will be provided
 #' @param writexlsx se T salva nella cartella di destinazione i risultati della funzione
 #' @param MTS valori possibili 1 e 2. Vedi Detail per approfondimenti
 #' @details I valori del comando MTS sono relativi alla correzione da applicare alla metrica ASPT qualora si utilizzino i substrati artificiali. MTS =1 fornisce i valori proposti in Buffagni et al. (2014) pari a -0.1067*n° famiglie+7.3533. MTS = 2 implementa invece i valori presenti nel software MacrOper versione 0.0.1 pari a -0.10667*n? famiglie+0.9909
