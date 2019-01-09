@@ -54,7 +54,7 @@ data.prep <- function(x){
 	}#1.1.2c
     		if(length(which(is.na(mts_d)))!=ncol(x)){#1.
     			mts_names <- t_1[!is.na(mts_d)]
-    			mts_taxa <- t[,!is.na(mts_d)]
+    			mts_taxa <- t[,!is.na(mts_d), drop = FALSE]
    			com_ou <- intersect(mts_t[,2],colnames(mts_taxa))
     			com_ou2 <- mts_t[mts_t[,2]%in%com_ou,,drop=F]
     			com_ou2 <- com_ou2[order(com_ou2[,2]),]
