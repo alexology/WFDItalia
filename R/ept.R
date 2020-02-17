@@ -22,7 +22,7 @@ ept <- function (x){
     					aspt_v1 <- x[[2]]
     					ept_row <- row.names(subset(aspt_v1, gruppo == "Plecoptera" |
         				gruppo == "Ephemeroptera" | gruppo == "Trichoptera"))
-    					x_ept <- x_ept[, ept_row]
+    					x_ept <- x_ept[, ept_row, drop = FALSE]
     					return(specnumber(x_ept))
 				}
 }
